@@ -119,8 +119,8 @@ p .bd-attorneys{
 }
 
 .consultation a {
-    color: #fff;
-    text-decoration: none;
+    color: #fff !important;
+    text-decoration: none !important;
     display: block;
     height: 100%;
     line-height: 45px; 
@@ -144,8 +144,8 @@ p .bd-attorneys{
 }
 
 .button-p a {
-    color: #c3921c;
-    text-decoration: none;
+    color: #c3921c !important;
+    text-decoration: none !important;
     display: block;
     height: 100%;
     line-height: 45px;  
@@ -492,9 +492,9 @@ p .bd-attorneys{
     color: red;
 }
 .contact-us{
-height: 78vh;
+height: 85vh;
 margin-top: 50px;
-margin-bottom: 30px;
+margin-bottom: 90px;
 }
 .contact-us h1{
     font-size: 50px;
