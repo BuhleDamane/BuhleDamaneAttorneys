@@ -55,12 +55,16 @@ p .bd-attorneys{
     text-align: center;
 }
 .nav-link {
-    color: #fff;
+    color: #ffffffa7 !important;
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: 500;
     font-family: "Roboto Serif", serif;
 }
+.nav-link.active{
+    color: #c3921c !important;
+}
+
 
 .nav-link:hover {
     color: #e67e22; 
@@ -635,6 +639,12 @@ footer .social-icons a {
     .logo-text{
         display: none;
     }
+  .nav-link{
+    color: #c3921c !important;
+  font-weight: 600;
+  margin-left: 250px;
+
+  }
 }
 @media (max-width: 767px) and (min-width: 576px) {
     .logo-text{
@@ -645,8 +655,14 @@ footer .social-icons a {
         margin-top: -10px;
         width: 200px;
     }
+    .nav-link{
+        color: #c3921c !important;
+        font-weight: 600;
+        margin-left: 350px;
+    }
+    
 }
-@media (max-width: 1199px) and (min-width: 768px) {
+@media (max-width: 1000px) and (min-width: 768px) {
     .logo-text{
         display: none;
     }
@@ -655,5 +671,20 @@ footer .social-icons a {
         margin-top: -10px;
         width: 200px;
     }
+    .nav-link{
+     color: #c3921c !important;
+        font-weight: 600;
+     
+    }
 }
-@media (min-width: 1200px) {}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    .collapse {
+        color: #c3921c; /* Gold color */
+    }
+    .nav-link{
+        color: #c3921c !important;
+    }
+    
+    
+}
